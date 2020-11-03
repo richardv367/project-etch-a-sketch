@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1 id="title">Etch-a-Sketch Project</h1>
+        <div id="button-container">
+            <div id="grid-size-container">
+                <label for="grid-size">Grid Size: </label>
+                <input id="grid-size" type="number" min="0" max="100">
+            </div>
+            <div id="hexcode-container" class="hidden">
+                <label for="hexcode">Hexcode: </label>
+                <input id="hexcode" type="number" min="0" max="100">
+            </div>
+            <button id="clear-btn">Clear</button>
+            <button id="black-ink-btn">Black Ink</button>
+            <button id="rainbow-ink-btn">Rainbow Ink</button>
+        </div>
+        <div id="grid-container">
+            
+        </div>
+        <!-- <div id="grid-size-container">
+            <label for="grid-size">Grid Size: </label>
+            <input id="grid-size" type="number" min="0" max="100">
+        </div> -->
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
